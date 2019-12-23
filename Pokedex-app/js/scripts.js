@@ -9,7 +9,7 @@ document.write('Ivysaur (height: 1)')
 document.write('Venusaur (height: 2)')
 
 if (height > 0.7) {
-    console.log('Wow, that's big!');
+    document.write('Wow, that's big!');
 }
 
 
