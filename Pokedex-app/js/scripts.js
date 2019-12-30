@@ -17,11 +17,10 @@ var repository = [
 ];
 
 for (var i = 0; i < repository.length; i++) {
+  let item = respository(i);
   document.write("<p>" + repository[i].name + "</p>");
 }
 
-if (height > 0.7) {
+if (item.height > 0.7) {
   document.write("Wow, that is big!");
-} else {
-  document.write("That is tiny");
 }
